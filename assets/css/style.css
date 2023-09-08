@@ -7,11 +7,14 @@ main{
     display: flex;
 }
 .principal{
+    display: flex;
     width: 100%;
     text-align: center;
-    padding-top: 150px;
-    background-color: aquamarine;
+    background-color: azure;
     min-height: 76vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .principal img{
     width: 250px;
@@ -21,7 +24,18 @@ main{
     width: 200px;
 }
 .contactos .contacto{
-    display: block;
+    display: flex;
     min-height: 70px;
-
+    border-color: black;
+    border-top: solid 1px;
+    padding: 15px;
+}
+.contactos .contacto img{
+    width: 60px;
+    border-radius: 30px;
+}
+.contactos .contacto .info{
+    text-align: left;
+    padding: 10px;
+    
 }
