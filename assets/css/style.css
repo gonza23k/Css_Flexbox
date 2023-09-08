@@ -19,10 +19,16 @@ main{
 .principal img{
     width: 250px;
 }
-.contactos{
+/*.contactos{
     padding: 30px;
     width: 290px;
+} */
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
 }
+
 .contactos .contacto{
     display: flex;
     min-height: 70px;
@@ -43,6 +49,8 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 10vh;
+    border-color: black;
+    border-top: 1px;
 }
 .nuevo-chat button{
     padding: 10px;
@@ -53,6 +61,7 @@ main{
 .contactos nav{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 .contactos nav img{
     width: 60px;
@@ -61,7 +70,7 @@ main{
 }
 .contactos nav .perfil{
     display: flex;
-    font-size: 12px;
+    font-size: 15px;
     align-items: center;
 }
 .contactos nav .perfil .info{
