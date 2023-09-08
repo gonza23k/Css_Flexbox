@@ -17,7 +17,11 @@ main{
     width: 250px;
 }
 .contactos{
-    padding: 100px;
+    padding: 30px;
+    width: 200px;
+}
+.contactos .contacto{
     display: block;
-    align-items: center;
+    min-height: 70px;
+
 }
