@@ -21,7 +21,7 @@ main{
 }
 .contactos{
     padding: 30px;
-    width: 200px;
+    width: 290px;
 }
 .contactos .contacto{
     display: flex;
@@ -37,5 +37,25 @@ main{
 .contactos .contacto .info{
     text-align: left;
     padding: 10px;
-    
+}
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+.nuevo-chat button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.contactos nav{
+    display: flex;
+    justify-content: space-between;
+}
+.contactos nav img{
+    width: 60px;
+    border-radius: 30px;
+
 }
