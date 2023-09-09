@@ -54,7 +54,7 @@ main{
     padding: 13px;
     background-color: blueviolet;
     color: white;
-    border-radius: 8dvi;
+    border-radius: 8px;
 }
 .contactos nav{
     display: flex;
